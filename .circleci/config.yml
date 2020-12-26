@@ -5,3 +5,10 @@ workflows:
   node-tests:
     jobs:
       - node/test
+    build:
+        docker:
+          - image: circleci/node:10.16.3
+
+        steps:
+          - run: npm install
+          - run: npm test
