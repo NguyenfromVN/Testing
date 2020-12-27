@@ -2,7 +2,7 @@
   "name": "demounittestwithci",
   "version": "1.0.0",
   "description": "demo for unit test with CI tool",
-  "main": "sketch.js",
+  "main": "main.js",
   "scripts": {
     "test": "jest"
   },
