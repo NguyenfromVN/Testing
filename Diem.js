@@ -5,7 +5,7 @@ class Diem {
     }
 
     distance(p) {
-        const dx = this.x - p.x;
+        const dx = this.x - p.x + 0.0001;
         const dy = this.y - p.y;
 
         return Math.hypot(dx, dy);
